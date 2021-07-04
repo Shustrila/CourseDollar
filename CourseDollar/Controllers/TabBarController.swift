@@ -32,7 +32,8 @@ class TabBarController: UITabBarController {
         notificationObservation?.invalidate()
         notificationObservation = nil
 
-        NotificationCenter.default.removeObserver(self)
+        NotificationCenter.default.removeObserver(self, name: .didCreateNotification, object: nil)
+        NotificationCenter.default.removeObserver(self, name: .didUpdateNotification, object: nil)
     }
     
     override func viewDidLoad() {
