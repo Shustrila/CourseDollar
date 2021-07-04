@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B939284F2691D09C00DE8713 /* Notification+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B939284D2691D09C00DE8713 /* Notification+CoreDataProperties.swift */; };
 		B93928522691D13100DE8713 /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93928512691D13100DE8713 /* DateUtils.swift */; };
 		B93928552691D7E400DE8713 /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93928542691D7E400DE8713 /* UserDefaults+Extension.swift */; };
 		B939285B26920B4500DE8713 /* Notification+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B939285A26920B4500DE8713 /* Notification+Extension.swift */; };
+		B939285E269219DF00DE8713 /* Notification+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B939285C269219DF00DE8713 /* Notification+CoreDataClass.swift */; };
+		B939285F269219DF00DE8713 /* Notification+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B939285D269219DF00DE8713 /* Notification+CoreDataProperties.swift */; };
 		B955C49026888D550084F6E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B955C48F26888D550084F6E5 /* AppDelegate.swift */; };
 		B955C49226888D550084F6E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B955C49126888D550084F6E5 /* SceneDelegate.swift */; };
 		B955C49A26888D550084F6E5 /* CourseDollar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B955C49826888D550084F6E5 /* CourseDollar.xcdatamodeld */; };
@@ -31,16 +32,16 @@
 		B955C4D02688A03F0084F6E5 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B955C4CF2688A03F0084F6E5 /* NetworkError.swift */; };
 		B955C4D32688ACE10084F6E5 /* ErrorConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B955C4D22688ACE10084F6E5 /* ErrorConnectionView.swift */; };
 		B955C4E026891A0C0084F6E5 /* SwiftyXMLParser in Frameworks */ = {isa = PBXBuildFile; productRef = B955C4DF26891A0C0084F6E5 /* SwiftyXMLParser */; };
-		B9976171268934E700674987 /* Notification+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B997616D268934E700674987 /* Notification+CoreDataClass.swift */; };
 		B9976173268934E700674987 /* CourseDollar+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B997616F268934E700674987 /* CourseDollar+CoreDataClass.swift */; };
 		B9976174268934E700674987 /* CourseDollar+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9976170268934E700674987 /* CourseDollar+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B939284D2691D09C00DE8713 /* Notification+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Notification+CoreDataProperties.swift"; path = "../../Notification+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		B93928512691D13100DE8713 /* DateUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
 		B93928542691D7E400DE8713 /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
 		B939285A26920B4500DE8713 /* Notification+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+Extension.swift"; sourceTree = "<group>"; };
+		B939285C269219DF00DE8713 /* Notification+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B939285D269219DF00DE8713 /* Notification+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		B955C48C26888D550084F6E5 /* CourseDollar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CourseDollar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B955C48F26888D550084F6E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B955C49126888D550084F6E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,7 +63,6 @@
 		B955C4CC26889A1A0084F6E5 /* DataBaseManager+Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataBaseManager+Notification.swift"; sourceTree = "<group>"; };
 		B955C4CF2688A03F0084F6E5 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		B955C4D22688ACE10084F6E5 /* ErrorConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorConnectionView.swift; sourceTree = "<group>"; };
-		B997616D268934E700674987 /* Notification+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+CoreDataClass.swift"; sourceTree = "<group>"; };
 		B997616F268934E700674987 /* CourseDollar+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CourseDollar+CoreDataClass.swift"; sourceTree = "<group>"; };
 		B9976170268934E700674987 /* CourseDollar+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CourseDollar+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -181,8 +181,8 @@
 		B955C4AE26888DF30084F6E5 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				B939284D2691D09C00DE8713 /* Notification+CoreDataProperties.swift */,
-				B997616D268934E700674987 /* Notification+CoreDataClass.swift */,
+				B939285C269219DF00DE8713 /* Notification+CoreDataClass.swift */,
+				B939285D269219DF00DE8713 /* Notification+CoreDataProperties.swift */,
 				B997616F268934E700674987 /* CourseDollar+CoreDataClass.swift */,
 				B9976170268934E700674987 /* CourseDollar+CoreDataProperties.swift */,
 			);
@@ -302,13 +302,14 @@
 			files = (
 				B955C4BD268893D00084F6E5 /* CourseDollarViewModel.swift in Sources */,
 				B955C4C92688958E0084F6E5 /* CourseDollarParser.swift in Sources */,
+				B939285F269219DF00DE8713 /* Notification+CoreDataProperties.swift in Sources */,
 				B955C4D32688ACE10084F6E5 /* ErrorConnectionView.swift in Sources */,
 				B955C4CD26889A1A0084F6E5 /* DataBaseManager+Notification.swift in Sources */,
 				B955C4A926888D9F0084F6E5 /* DataBaseManager.swift in Sources */,
 				B955C4CB268899FD0084F6E5 /* DataBaseManager+CourseDollar.swift in Sources */,
 				B955C49A26888D550084F6E5 /* CourseDollar.xcdatamodeld in Sources */,
-				B939284F2691D09C00DE8713 /* Notification+CoreDataProperties.swift in Sources */,
 				B955C4AC26888DD50084F6E5 /* NetworkManager.swift in Sources */,
+				B939285E269219DF00DE8713 /* Notification+CoreDataClass.swift in Sources */,
 				B955C4D02688A03F0084F6E5 /* NetworkError.swift in Sources */,
 				B955C4B326888E5C0084F6E5 /* TabBarController.swift in Sources */,
 				B93928522691D13100DE8713 /* DateUtils.swift in Sources */,
@@ -320,7 +321,6 @@
 				B955C4B526888EA50084F6E5 /* CourseDollarListController.swift in Sources */,
 				B955C49026888D550084F6E5 /* AppDelegate.swift in Sources */,
 				B9976174268934E700674987 /* CourseDollar+CoreDataProperties.swift in Sources */,
-				B9976171268934E700674987 /* Notification+CoreDataClass.swift in Sources */,
 				B955C49226888D550084F6E5 /* SceneDelegate.swift in Sources */,
 				B955C4BB268893AD0084F6E5 /* NotificationCell.swift in Sources */,
 				B955C4B92688938F0084F6E5 /* CoureseDollarCell.swift in Sources */,

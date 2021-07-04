@@ -2,7 +2,7 @@
 //  Notification+CoreDataProperties.swift
 //  CourseDollar
 //
-//  Created by sasha on 28.06.2021.
+//  Created by sasha on 04.07.2021.
 //
 //
 
@@ -16,10 +16,12 @@ extension Notification {
         return NSFetchRequest<Notification>(entityName: "Notification")
     }
 
-    @NSManaged public var oldCourse: String?
+    @NSManaged public var dateUpdate: Date?
     @NSManaged public var newCourse: String?
-    @NSManaged public var dateUpdate: String?
-    @NSManaged public var looked: Bool?
+    @NSManaged public var oldCourse: String?
+    @NSManaged public var looked: Bool
+    @NSManaged public var id: UUID
+
 }
 
 extension Notification : Identifiable {
