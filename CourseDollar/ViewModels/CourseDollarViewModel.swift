@@ -54,9 +54,7 @@ class CourseDollarViewModel: NSObject {
         
         guard let nowDate: Date = formatter.date(from: dateLastView) else { return }
         guard let dateChange: Date = formatter.date(from: lastDateChange ?? "") else { return }
-        
-        createNotification(courses: courses)
-        
+               
         if nowDate.timeIntervalSince1970 > dateChange.timeIntervalSince1970 {
             createNotification(courses: courses)
         } else {
