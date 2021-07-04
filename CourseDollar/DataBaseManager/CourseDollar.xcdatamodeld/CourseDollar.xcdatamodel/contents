@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="21A5248p" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CourseDollar" representedClassName="CourseDollar" syncable="YES">
+        <attribute name="course" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Notification" representedClassName="Notification" syncable="YES">
+        <attribute name="dateUpdate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="looked" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="newCourse" optional="YES" attributeType="String"/>
+        <attribute name="oldCourse" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="CourseDollar" positionX="-63" positionY="-18" width="128" height="74"/>
+        <element name="Notification" positionX="-54" positionY="-9" width="128" height="104"/>
+    </elements>
+</model>
