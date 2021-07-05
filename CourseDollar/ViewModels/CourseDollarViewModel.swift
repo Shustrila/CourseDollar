@@ -52,12 +52,15 @@ class CourseDollarViewModel: NSObject {
         DataBaseManager.shared.addCourseDollar(courses)
         courseDollar = DataBaseManager.shared.getAllCourseDollar()
         
+        if lastDateChange == nil {
+            UserDefaults.standard.set(dateLastView, forKey: lastDateChangeKey)
+        }
+        
         guard let nowDate: Date = formatter.date(from: dateLastView) else { return }
         guard let dateChange: Date = formatter.date(from: lastDateChange ?? "") else { return }
-               
+                       
         if nowDate.timeIntervalSince1970 > dateChange.timeIntervalSince1970 {
             createNotification(courses: courses)
-        } else {
             UserDefaults.standard.set(dateLastView, forKey: lastDateChangeKey)
         }
     }
